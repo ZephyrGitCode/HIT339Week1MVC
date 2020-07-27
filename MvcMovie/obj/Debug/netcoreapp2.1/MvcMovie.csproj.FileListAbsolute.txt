@@ -30,3 +30,5 @@ C:\Users\zephy\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.V
 C:\Users\zephy\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.dll
 C:\Users\zephy\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.pdb
 C:\Users\zephy\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.csproj.CopyComplete
+C:\Users\zephy\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Index.g.cshtml.cs
+C:\Users\zephy\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Welcome.g.cshtml.cs
