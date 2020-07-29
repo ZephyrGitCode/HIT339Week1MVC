@@ -9,6 +9,7 @@
 <div>
     <h4>Movie</h4>
     <hr />
+    <img height ="250px" width="400px" src="@Html.DisplayFor(model => model.ImageURL)"></img>
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Title)
@@ -39,6 +40,12 @@
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Rating)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageURL)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageURL)
         </dd>
     </dl>
 </div>

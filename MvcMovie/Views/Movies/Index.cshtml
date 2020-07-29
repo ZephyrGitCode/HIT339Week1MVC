@@ -25,6 +25,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.Movies[0].ImageURL)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Movies[0].Title)
             </th>
             <th>
@@ -39,13 +42,15 @@
             <th>
                 @Html.DisplayNameFor(model => model.Movies[0].Rating)
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model.Movies)
         {
         <tr>
+            <td>
+                <img height="60px;" width="60px" src="@Html.DisplayFor(modelItem => item.ImageURL)"></img>
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
